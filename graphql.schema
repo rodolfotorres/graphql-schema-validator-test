@@ -49,7 +49,7 @@ scalar Seconds
 type Team implements INode {
   id: ID!
   members: [Member]
-  name: String
+  names: [String]
 }
 
 type TeamsMutation {
